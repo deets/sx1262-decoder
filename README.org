@@ -10,7 +10,7 @@ Copy or link the =sx1262= to a location =libsigrokdecode= picks up. For example
 under Linux this is
 
 #+begin_src bash
-.local/share/libsigrokdecode/decoders
+~/.local/share/libsigrokdecode/decoders
 #+end_src
 
 Then it can be used in =sigrok-cli= or [[https://sigrok.org/wiki/PulseView][PulseView]].
